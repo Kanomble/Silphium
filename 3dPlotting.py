@@ -32,7 +32,7 @@ ax = fig.add_subplot(111, projection='3d')
 plt.rcParams['legend.fontsize'] = 10   
 
 ax.plot(L1_PC1,L1_PC2,L1_PC3, 'b+', markersize=12,linewidth=50, alpha=0.5, label='H1')
-ax.plot(L2_PC1,L2_PC2,L2_PC3, 'gd',markersize=8,linewidth=0, alpha=0.5, label='H2-Connatum')
+ax.plot(L2_PC1,L2_PC2,L2_PC3, 'gd',markersize=8,linewidth=0, alpha=0.5, label='H2')
 ax.plot(L3_PC1,L3_PC2,L3_PC3, 'rh', markersize=8,linewidth=0.5, alpha=0.5, label='H3')
 ax.plot(L4_PC1,L4_PC2,L4_PC3, 'co',markersize=8,linewidth=0, alpha=0.5, label='H4')
 ax.plot(L5_PC1,L5_PC2,L5_PC3, 'mH', markersize=8,linewidth=0.5, alpha=0.8, label='H5')
