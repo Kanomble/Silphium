@@ -3,8 +3,8 @@ import pandas as pd
 import numpy as np
 from matplotlib import pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D
-from mpl_toolkits.mplot3d import proj3d
-import matplotlib as cm
+#from mpl_toolkits.mplot3d import proj3d
+
 dataset=pd.read_csv("dataset2.txt",delimiter="\t")
 
 L1_PC1 =np.array(dataset[25:36]["PC1"])
@@ -27,6 +27,7 @@ L3_PC3 =np.array(dataset[37:48]["PC3"])
 L4_PC3 =np.array(dataset[48:59]["PC3"])
 L5_PC3 =np.array(dataset[59:70]["PC3"])
 L6_PC3 =np.array(dataset[70:81]["PC3"])
+
 fig = plt.figure(figsize=(8,8))
 ax = fig.add_subplot(111, projection='3d')
 plt.rcParams['legend.fontsize'] = 10   
